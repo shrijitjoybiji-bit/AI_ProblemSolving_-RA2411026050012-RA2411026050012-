@@ -1,8 +1,4 @@
-"""
-GPS-Based City Route Finder
-Problem 11 – AI Problem Solving Assignment
-Algorithm: A* Search (with optional BFS/UCS comparison)
-"""
+
 
 import tkinter as tk
 from tkinter import ttk, messagebox, simpledialog
