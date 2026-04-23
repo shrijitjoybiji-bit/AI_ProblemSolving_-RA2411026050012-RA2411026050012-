@@ -5,8 +5,7 @@ from tkinter import ttk, messagebox
 from collections import deque
 import time
 import threading
-
-# ── Palette ──────────────────────────────────────────────────────────────────
+ 
 BG        = "#0d1117"
 PANEL_BG  = "#161b22"
 ACCENT    = "#58a6ff"
