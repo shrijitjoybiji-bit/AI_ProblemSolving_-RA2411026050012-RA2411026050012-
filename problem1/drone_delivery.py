@@ -1,8 +1,4 @@
-"""
-Drone Delivery Path Finder System
-Problem 9 – AI Problem Solving Assignment
-Algorithms: Breadth-First Search (BFS) & Depth-First Search (DFS)
-"""
+
 
 import tkinter as tk
 from tkinter import ttk, messagebox
@@ -251,7 +247,7 @@ class DroneApp(tk.Tk):
         m = self.mode.get()
         if m == "wall":
             self.grid_data[r][c] ^= 1
-            if (r,c) == self.start: self.start = None
+            if (r,c) == sel.start: self.start = None
             if (r,c) == self.goal:  self.goal  = None
         elif m == "start":
             self.start = (r, c)
